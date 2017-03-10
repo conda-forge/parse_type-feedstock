@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
   preserve_egg_dir: True
 
@@ -20,9 +20,6 @@ requirements:
   build:
     - python
     - setuptools
-    - parse >=1.6
-    - six
-    - enum34
 
   run:
     - python
@@ -34,10 +31,6 @@ test:
   imports:
     - _paver_ext
     - parse_type
-
-  requires:
-    - pytest
-    - pytest-runner
 
 about:
   home: https://github.com/jenisys/parse_type
