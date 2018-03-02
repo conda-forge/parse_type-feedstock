@@ -1,6 +1,6 @@
 {% set name = "parse_type" %}
-{% set version = "0.3.4" %}
-{% set sha256 = "3dd0b323bafcb8c25e000ce5589042a1c99cba9c3bec77b9f591e46bc9606147" %}
+{% set version = "0.4.2" %}
+{% set sha256 = "f596bdc75d3dd93036fbfe3d04127da9f6df0c26c36e01e76da85adef4336b3c" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
