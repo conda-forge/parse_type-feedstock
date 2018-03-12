@@ -28,7 +28,6 @@ requirements:
 
 test:
   imports:
-    - _paver_ext
     - parse_type
 
 about:
