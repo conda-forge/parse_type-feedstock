@@ -1,25 +1,21 @@
-{% set name = "parse_type" %}
 {% set version = "0.5.2" %}
-{% set sha256 = "7f690b18d35048c15438d6d0571f9045cffbec5907e0b1ccf006f889e3a38c0b" %}
 
 package:
-  name: {{ name|lower }}
+  name: parse_type
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/p/parse_type/parse_type-{{ version }}.tar.gz
+  sha256: 7f690b18d35048c15438d6d0571f9045cffbec5907e0b1ccf006f889e3a38c0b
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
     - python
-    - setuptools
-
+    - pip
   run:
     - python
     - parse >=1.6
@@ -33,6 +29,7 @@ test:
 about:
   home: https://github.com/jenisys/parse_type
   license: BSD-3-Clause
+  license_file: LICENSE
   summary: 'Simplifies to build parse types based on the parse module'
   license_family: BSD
   description: |
