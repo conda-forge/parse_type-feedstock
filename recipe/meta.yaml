@@ -9,18 +9,19 @@ source:
   sha256: 7f690b18d35048c15438d6d0571f9045cffbec5907e0b1ccf006f889e3a38c0b
 
 build:
-  number: 3
+  number: 4
+  noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
-    - python
+    - python >=3.6
+    - setuptools <58  # because of https://github.com/jenisys/parse_type/issues/17
     - pip
   run:
-    - python
+    - python >=3.6
     - parse >=1.6
     - six
-    - enum34  # [py2k]
 
 test:
   imports:
