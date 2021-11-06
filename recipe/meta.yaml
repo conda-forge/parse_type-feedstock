@@ -10,18 +10,18 @@ source:
 
 build:
   number: 4
+  noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - setuptools <58  # because of https://github.com/jenisys/parse_type/issues/17
     - pip
   run:
-    - python
+    - python >=3.6
     - parse >=1.6
     - six
-    - enum34  # [py2k]
 
 test:
   imports:
