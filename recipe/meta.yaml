@@ -15,6 +15,7 @@ build:
 requirements:
   host:
     - python
+    - setuptools <58  # because of https://github.com/jenisys/parse_type/issues/17
     - pip
   run:
     - python
