@@ -9,14 +9,14 @@ source:
   sha256: 20b43c660e48ed47f433bce5873a2a3d4b9b6a7ba47bd7f7d2a7cec4bec5551f
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - python >=3.6
-    - setuptools <58  # because of https://github.com/jenisys/parse_type/issues/17
+    - setuptools
     - pip
   run:
     - python >=3.6
