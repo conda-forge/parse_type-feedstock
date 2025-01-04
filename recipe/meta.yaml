@@ -18,6 +18,8 @@ requirements:
     - python {{ python_min }}
     - setuptools
     - pip
+    - setuptools_scm
+    - wheel
   run:
     - python >={{ python_min }}
     - parse >=1.6
@@ -49,3 +51,4 @@ about:
 extra:
   recipe-maintainers:
     - stuertz
+    - thewchan
