@@ -1,4 +1,4 @@
-{% set version = "0.6.4" %}
+{% set version = "0.6.6" %}
 
 package:
   name: parse_type
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/parse_type/parse_type-{{ version }}.tar.gz
-  sha256: 5e1ec10440b000c3f818006033372939e693a9ec0176f446d9303e4db88489a6
+  sha256: 513a3784104839770d690e04339a8b4d33439fcd5dd99f2e4580f9fc1097bfb2
 
 build:
-  number: 3
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
