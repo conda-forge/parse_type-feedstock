@@ -35,7 +35,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-parse_type-green.svg)](https://anaconda.org/conda-forge/parse_type) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/parse_type.svg)](https://anaconda.org/conda-forge/parse_type) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/parse_type.svg)](https://anaconda.org/conda-forge/parse_type) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/parse_type.svg)](https://anaconda.org/conda-forge/parse_type) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-parse__type-green.svg)](https://anaconda.org/conda-forge/parse_type) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/parse_type.svg)](https://anaconda.org/conda-forge/parse_type) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/parse_type.svg)](https://anaconda.org/conda-forge/parse_type) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/parse_type.svg)](https://anaconda.org/conda-forge/parse_type) |
 
 Installing parse_type
 =====================
