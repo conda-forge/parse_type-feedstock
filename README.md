@@ -10,12 +10,11 @@ Package license: BSD-3-Clause
 Summary: Simplifies to build parse types based on the parse module
 
 parse_type extends the parse module (opposite of string.format()) with the following features:
-  * build type converters for common use cases (enum/mapping, choice)
-  * build a type converter with a cardinality constraint (0..1, 0..*, 1..*) from the type converter with cardinality=1.
-  * compose a type converter from other type converters
-  * an extended parser that supports the CardinalityField naming schema and creates missing type variants (0..1, 0..*, 1..*) from the primary type converter
+* build type converters for common use cases (enum/mapping, choice)
+* build a type converter with a cardinality constraint (0..1, 0..*, 1..*) from the type converter with cardinality=1.
+* compose a type converter from other type converters
+* an extended parser that supports the CardinalityField naming schema and creates missing type variants (0..1, 0..*, 1..*) from the primary type converter
 dev_url: https://github.com/jenisys/parse_type
-
 
 Current build status
 ====================
