@@ -22,8 +22,8 @@ requirements:
     - wheel
   run:
     - python >={{ python_min }}
-    - parse >=1.6
-    - six
+    - parse >=1.18.0
+    - six >=1.15
 
 test:
   requires:
