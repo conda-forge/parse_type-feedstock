@@ -10,12 +10,11 @@ Package license: BSD-3-Clause
 Summary: Simplifies to build parse types based on the parse module
 
 parse_type extends the parse module (opposite of string.format()) with the following features:
-  * build type converters for common use cases (enum/mapping, choice)
-  * build a type converter with a cardinality constraint (0..1, 0..*, 1..*) from the type converter with cardinality=1.
-  * compose a type converter from other type converters
-  * an extended parser that supports the CardinalityField naming schema and creates missing type variants (0..1, 0..*, 1..*) from the primary type converter
+* build type converters for common use cases (enum/mapping, choice)
+* build a type converter with a cardinality constraint (0..1, 0..*, 1..*) from the type converter with cardinality=1.
+* compose a type converter from other type converters
+* an extended parser that supports the CardinalityField naming schema and creates missing type variants (0..1, 0..*, 1..*) from the primary type converter
 dev_url: https://github.com/jenisys/parse_type
-
 
 Current build status
 ====================
@@ -35,7 +34,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-parse_type-green.svg)](https://anaconda.org/conda-forge/parse_type) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/parse_type.svg)](https://anaconda.org/conda-forge/parse_type) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/parse_type.svg)](https://anaconda.org/conda-forge/parse_type) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/parse_type.svg)](https://anaconda.org/conda-forge/parse_type) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-parse__type-green.svg)](https://anaconda.org/conda-forge/parse_type) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/parse_type.svg)](https://anaconda.org/conda-forge/parse_type) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/parse_type.svg)](https://anaconda.org/conda-forge/parse_type) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/parse_type.svg)](https://anaconda.org/conda-forge/parse_type) |
 
 Installing parse_type
 =====================
